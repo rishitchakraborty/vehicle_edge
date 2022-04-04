@@ -79,7 +79,7 @@ if __name__ == "__main__":
 
     for _ in range(len(os.listdir("RECORD"))):
 
-        app.run(debug=False)
+        app.run(host='0.0.0.0',port=8080,debug=False)
 
 
 
